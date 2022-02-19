@@ -3,7 +3,7 @@ services:
   rtmp:
     build: .
     ports:
-      - 1935:1935
+      - 1234:1234
       - 80:80
     container_name: rtmp_server
     volumes:
