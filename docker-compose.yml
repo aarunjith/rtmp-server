@@ -3,8 +3,8 @@ services:
   rtmp:
     build: .
     ports:
-      - 1234:1234
-      - 4321:4321
+      - 8051:8051
+      - 8052:8052
     container_name: rtmp_server
     volumes:
       - ./data:/tmp/hls
